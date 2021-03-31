@@ -1,0 +1,9 @@
+<div class="container">
+    <h1> User Details</h1>
+    <hr>
+    <p> <b>User ID:</b> <br>{{ userdetails.id }}</p>
+    <p> <b>User Name:</b> <br>{{ userdetails.first_name }}  {{ userdetails.last_name }}</p>
+    <p> <b>User Email:</b> <br> {{userdetails.email}} </p>
+    <p> <b>User Avatar:</b> <br> <img [src]= "userdetails.avatar" /> </p>
+    <a routerLink="/restclient"> Rest Client</a>
+</div>

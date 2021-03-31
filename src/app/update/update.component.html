@@ -1,0 +1,21 @@
+<div class="container py-5">
+
+    <form  (ngSubmit)="updateEmployee(form)" #form="ngForm">
+        <div class="row" >
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name" name="txtname" ngModel>
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Job" aria-label="Last name" name="txtjob" ngModel> 
+            </div>
+            <div class="col">
+               <button type="submit" class="btn btn-success" > Add </button> |
+              
+              </div>
+          </div>
+    <p class="alert alert-success my-5"> User Updated !! </p>
+    
+    </form>
+    
+    </div>
+    
